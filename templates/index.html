@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;7
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Yorkshop!</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>No Yorkshop, nós oferecemos uma variedade de produtos e serviços de alta qualidade para atender às suas necessidades. Nosso objetivo é proporcionar uma experiência de compra excepcional, com atenção aos detalhes e ao atendimento ao cliente.</p>
+    </section>
+
+    <section>
+        <h2>Produtos em Destaque</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Produto 1</h3>
+                <p>Descrição do Produto 1. Este produto é ideal para quem busca qualidade e durabilidade.</p>
+                <p><strong>Preço:</strong> R$ 100,00</p>
+            </div>
+            <div class="product">
+                <h3>Produto 2</h3>
+                <p>Descrição do Produto 2. Oferece a melhor tecnologia e inovação para você.</p>
+                <p><strong>Preço:</strong> R$ 150,00</p>
+            </div>
+            <div class="product">
+                <h3>Produto 3</h3>
+                <p>Descrição do Produto 3. Um clássico que nunca sai de moda!</p>
+                <p><strong>Preço:</strong> R$ 80,00</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Yorkshop &copy; 2023. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Workshop de Desenvolvimento Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#inscricao">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="agenda">
+        <h2>Agenda</h2>
+        <ul>
+            <li><strong>09:00 - 10:00:</strong> Introdução ao Desenvolvimento Web</li>
+            <li><strong>10:15 - 12:00:</strong> HTML e CSS Básico</li>
+            <li><strong>12:00 - 13:00:</strong> Intervalo para Almoço</li>
+            <li><strong>13:00 - 15:00:</strong> JavaScript e Interatividade</li>
+            <li><strong>15:15 - 17:00:</strong> Projeto Prático</li>
+        </ul>
+    </section>
+
+    <section id="inscricao">
+        <h2>Inscreva-se</h2>
+        <form action="enviar_inscricao.php" method="post">
+
